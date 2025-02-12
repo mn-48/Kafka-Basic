@@ -7,11 +7,11 @@ $ tar -xzf kafka_2.13-3.9.0.tgz
 $ cd kafka_2.13-3.9.0
 ```
 
-# Start the ZooKeeper service
+# Start the ZooKeeper service (always Run it/ don't close terminal)
 `bin/zookeeper-server-start.sh config/zookeeper.properties`
 
 
-# Start the Kafka broker service
+# Start the Kafka broker service (Run it in different terminal)
 `bin/kafka-server-start.sh config/server.properties`
 
 
