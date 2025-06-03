@@ -33,3 +33,11 @@ $ cd kafka_2.13-3.9.0
 
 # Read the events
 `bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092`
+
+
+
+
+# with docker
+```
+docker-compose up -d
+```
